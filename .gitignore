@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production builds
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Database data & local dumps
+mysql-data/
+*.sqlite
+*.db
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

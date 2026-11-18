@@ -1,0 +1,22 @@
+{
+  "name": "store-rating-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Store Rating Management Web Application",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend:dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mysql",
+    "jwt",
+    "bcrypt",
+    "vite",
+    "tailwind"
+  ],
+  "author": "Full Stack Developer",
+  "license": "MIT"
+}
